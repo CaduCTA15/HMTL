@@ -1,0 +1,73 @@
+#header, #content, #footer{
+width: 960px;
+margin: 0 auto
+ /*centraliza a div */
+}
+#header{
+    background-color: rgb(2, 61, 6);
+    height: 250px;
+    background-image: url(logo_250x250.png);
+    background-repeat: no-repeat;
+    font-size: 50px;
+    background-position:left ;
+
+}
+#header h1{
+    color: #ffffff;
+    padding: 50px 0 0 280px;
+
+}
+#content {
+    min-height: 50px;
+}
+#content #left{
+    width: 190px; /* div fluetuando a esqueda*/
+    float: left;
+    padding-right: 10px;
+
+}
+
+#lista-links{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+}#lista-links li {
+    padding: 5px;
+    height: 30px;
+}
+
+#lista-links a {
+    height: 30;
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    
+}
+#lista-links a:hover, #lista-links .active{
+background-color:red;
+}
+#content #right{
+    width: 760px;
+    float: right; /* div flutuando a direita */
+}
+#content #right p{
+    text-align: justify;
+
+}
+#footer{
+    color: #ffffff;
+    clear:  both;
+    background-color: rgb(2, 61, 6) ;
+    padding: 10px;
+}
+#footer h3 {
+    text-align: center;
+}
+body{
+background-color: rgb(243, 255, 163);
+}
+
