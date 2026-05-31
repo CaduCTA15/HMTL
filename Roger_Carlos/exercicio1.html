@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Editor</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        textarea {
+            width: 600px;
+            height: 150px;
+        }
+
+        #resultado {
+            margin-top: 20px;
+            width: 600px;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Editor</h1>
+
+    <label>Texto:</label><br><br>
+
+    <textarea id="texto"></textarea>
+
+    <br><br>
+
+    <button onclick="salvarTexto()">
+        Salvar Texto
+    </button>
+
+    <div id="resultado"></div>
+
+    <br>
+
+    <button onclick="aumentarFonte()">+</button>
+    <button onclick="diminuirFonte()">-</button>
+    <button onclick="alternarNegrito()">B</button>
+    <button onclick="alternarItalico()">I</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
